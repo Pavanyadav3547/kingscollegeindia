@@ -1,0 +1,64 @@
+body{
+    padding-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.custom-nav{
+    height: 70px;
+    background-color: #d21245;
+    border: none;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 70px;
+    z-index: 100;
+    top: 0;
+}
+
+.custom-nav a{
+    color: #fff;
+}
+
+.page-header h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#contact_form{
+    background-color: #414042;
+    padding: 2em;
+    color: #d21245;
+    max-width: 405px;
+    width: 100%;
+    display: block;
+}
+
+#contact_form button{
+    width: 100%;
+    background-color: #d21245;
+    border: 0;
+}
+
+.mainbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(rgba(210, 18, 69, 0.39) , rgba(0, 56, 131, 0.89)) ,url(Diverse-culture.png) center no-repeat;
+    height: calc(100vh - 70px);
+}
+
+div.dataTables_wrapper {
+    margin: 0 auto;
+}

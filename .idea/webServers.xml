@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bfa17f2f-b3b0-4438-bcd0-4dd0fd07551c" name="tinder" url="http://159.89.163.2">
+        <fileTransfer host="159.89.163.2" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="638c8ba2-328f-4e3b-9fb3-93377cd6ab3f" name="kings" url="http://kingscollegeindia.in/admissions2020-21/">
+        <fileTransfer host="68.183.90.49" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
